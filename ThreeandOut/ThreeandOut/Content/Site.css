@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.428571;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Bootstrap Overrides*/
+
+#wikiFoot {
+    font-style: italic;
+}
+.navbar-inverse {
+    background-color: #009ad9;
+    border-color: #009ad9;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fffefe;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000;
+    font-family: "Lobster"
+}
+
+html {
+    font-size: 85.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.jumbotron h1 {
+    line-height: .5;
+    color: #fff;
+    font-family: "Lobster"
+}
+
+.jumbotron p {
+    line-height: 1.4;
+    color: #fff;
+    font-family: "Hind";
+}
+
+.jumbotron {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 1.142857;
+    color: inherit;
+    background-color: #000000;
+}
+
+p.ridge {border-style: ridge;}
+
+#menu a:hover {
+    color: #FFF;
+    background-color: #252525;
+    border-bottom: #ffffff solid 1.5px;

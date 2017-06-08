@@ -1,0 +1,564 @@
+﻿@{
+    ViewBag.title ="Roster";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th class="col-jersey header headerSortDown"><span title="#">#</span></th>
+                    <th class="col-name header"><span title="Name">Name</span></th>
+                    <th class="col-position header"><span title="Position">Pos.</span></th>
+                    <th class="col-height header"><span title="Height">Ht.</span></th>
+                    <th class="col-weight header"><span title="Weight">Wt.</span></th>
+                    <th class="col-bd header"><span title="Date of Birth">Age</span></th>
+                    <th class="col-exp header"><span title="Years of Experience">Exp.</span></th>
+                    <th class="col-college header"><span title="College">College</span></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="01">1</td>
+                    <td class="col-name">Newton, Cam</td>
+                    <td class="col-position">QB</td>
+                    <td class="col-height">6-5</td>
+                    <td class="col-weight">245</td>
+                    <td class="col-bd">27</td>
+                    <td class="col-exp" rel="06">6</td>
+                    <td class="col-college">Auburn</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="03">3</td>
+                    <td class="col-name">Anderson, Derek</td>
+                    <td class="col-position">QB</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">235</td>
+                    <td class="col-bd">33</td>
+                    <td class="col-exp" rel="12">12</td>
+                    <td class="col-college">Oregon State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="05">5</td>
+
+                    <td class="col-name">Palardy, Michael</td>
+                    <td class="col-position">P</td>
+                    <td class="col-height">5-11</td>
+                    <td class="col-weight">190</td>
+                    <td class="col-bd">24</td>
+                    <td class="col-exp" rel="01">1 </td>
+                    <td class="col-college">Tennessee</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="09">9</td>
+                    <td class="col-name">Gano, Graham</td>
+                    <td class="col-position">K</td>
+                    <td class="col-height">6-2</td>
+                    <td class="col-weight">205</td>
+                    <td class="col-bd">29</td>
+                    <td class="col-exp" rel="07">7</td>
+                    <td class="col-college">Florida State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="10">10</td>
+                    <td class="col-name">Brown, Philly</td>
+                    <td class="col-position">WR</td>
+                    <td class="col-height">5-11</td>
+                    <td class="col-weight">190</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="03">3</td>
+                    <td class="col-college">Ohio State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="11">11</td>
+                    <td class="col-name">Bersin, Brenton</td>
+                    <td class="col-position">WR</td>
+                    <td class="col-height">6-3</td>
+                    <td class="col-weight">210</td>
+                    <td class="col-bd">26</td>
+                    <td class="col-exp" rel="03">3</td>
+                    <td class="col-college">Wofford</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="13">13</td>
+                    <td class="col-name">Benjamin, Kelvin</td>
+                    <td class="col-position">WR</td>
+                    <td class="col-height">6-5</td>
+                    <td class="col-weight">245</td>
+                    <td class="col-bd">26</td>
+                    <td class="col-exp" rel="03">3</td>
+                    <td class="col-college">Florida St.</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="14">14</td>
+                    <td class="col-name">Webb, Joe</td>
+                    <td class="col-position">QB</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">235</td>
+                    <td class="col-bd">30</td>
+                    <td class="col-exp" rel="07">7</td>
+                    <td class="col-college">UAB</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="18">18 </td>
+                    <td class="col-name">Byrd, Damiere</td>
+                    <td class="col-position">WR</td>
+                    <td class="col-height">5-9</td>
+                    <td class="col-weight">180</td>
+                    <td class="col-bd">24</td>
+                    <td class="col-exp" rel="01">1</td>
+                    <td class="col-college">South Carolina</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="19">19</td>
+                    <td class="col-name">Ginn Jr., Tedd</td>
+                    <td class="col-position">WR</td>
+                    <td class="col-height">5-11</td>
+                    <td class="col-weight">180</td>
+                    <td class="col-bd">31</td>
+                    <td class="col-exp" rel="10">10</td>
+                    <td class="col-college">Ohio State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="20">20</td>
+                    <td class="col-name">Coleman, Kurt</td>
+                    <td class="col-position">S</td>
+                    <td class="col-height">5-11</td>
+                    <td class="col-weight">200</td>
+                    <td class="col-bd">28</td>
+                    <td class="col-exp" rel="07">7</td>
+                    <td class="col-college">Ohio State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="22">22</td>
+                    <td class="col-name">Griffin, Michael</td>
+                    <td class="col-position">S</td>
+                    <td class="col-height">6-0</td>
+                    <td class="col-weight">215</td>
+                    <td class="col-bd">32</td>
+                    <td class="col-exp" rel="10">10</td>
+                    <td class="col-college">Texas</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="23">23</td>
+                    <td class="col-name">Johnson, Leonard</td>
+                    <td class="col-position">CB</td>
+                    <td class="col-height">5-10</td>
+                    <td class="col-weight">202</td>
+                    <td class="col-bd">26</td>
+                    <td class="col-exp" rel="05">5</td>
+                    <td class="col-college">Iowa State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="24">24</td>
+                    <td class="col-name">Bradberry, James</td>
+                    <td class="col-position">CB</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">210</td>
+                    <td class="col-bd">23</td>
+                    <td class="col-exp" rel="00">R</td>
+                    <td class="col-college">Samford</td>
+                </tr>
+                <tr class="loop-odd  loop-last">
+                    <td class="col-jersey" rel="25">25</td>
+                    <td class="col-name">Young, Lou</td>
+                    <td class="col-position">CB</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">205</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="01">1</td>
+                    <td class="col-college">Georgia Tech</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="26">26</td>
+                    <td class="col-name">Daryl, Worley</td>
+                    <td class="col-position">CB</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">205</td>
+                    <td class="col-bd">21</td>
+                    <td class="col-exp" rel="00">R</td>
+                    <td class="col-college">West Virginia</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="28">28</td>
+                    <td class="col-name">Stewart, Jonathan</td>
+                    <td class="col-position">RB</td>
+                    <td class="col-height">5-10</td>
+                    <td class="col-weight">240</td>
+                    <td class="col-bd">29</td>
+                    <td class="col-exp" rel="09">9</td>
+                    <td class="col-college">Oregon</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="30">30</td>
+                    <td class="col-name">Dixon, Travelle</td>
+                    <td class="col-position">S</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">210</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="01">1</td>
+                    <td class="col-college">Washington</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="34">34</td>
+                    <td class="col-name">Artis-Payne, Cameron</td>
+                    <td class="col-position">RB</td>
+                    <td class="col-height">5-10</td>
+                    <td class="col-weight">220</td>
+                    <td class="col-bd">26</td>
+                    <td class="col-exp" rel="02">2</td>
+                    <td class="col-college">Auburn</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="35">35</td>
+                    <td class="col-name">Tolbert, Mike</td>
+                    <td class="col-position">FB</td>
+                    <td class="col-height">5-9</td>
+                    <td class="col-weight">250</td>
+                    <td class="col-bd">31</td>
+                    <td class="col-exp" rel="09">9</td>
+                    <td class="col-college">Coastal Carolina</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="42">42</td>
+                    <td class="col-name">Jones, Colin</td>
+                    <td class="col-position">S</td>
+                    <td class="col-height">6-0</td>
+                    <td class="col-weight">205</td>
+                    <td class="col-bd">29</td>
+                    <td class="col-exp" rel="06">6 </td>
+                    <td class="col-college">Texas Christian</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="43">43</td>
+                    <td class="col-name">Whittaker, Fozzy</td>
+                    <td class="col-position">RB</td>
+                    <td class="col-height">5-10</td>
+                    <td class="col-weight">205</td>
+                    <td class="col-bd">28</td>
+                    <td class="col-exp" rel="04">4 </td>
+                    <td class="col-college">Texas</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="44">44</td>
+                    <td class="col-name">Jansen, J.J.</td>
+                    <td class="col-position">LS</td>
+                    <td class="col-height">6-2</td>
+                    <td class="col-weight">240</td>
+                    <td class="col-bd">31</td>
+                    <td class="col-exp" rel="09">9</td>
+                    <td class="col-college">Notre Dame</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="52">52</td>
+                    <td class="col-name">Norris, Jared</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">240</td>
+                    <td class="col-bd">23</td>
+                    <td class="col-exp" rel="00">R</td>
+                    <td class="col-college">Utah</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="53">53</td>
+                    <td class="col-name">Jacobs, Ben</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">240</td>
+                    <td class="col-bd">28</td>
+                    <td class="col-exp" rel="04">4</td>
+                    <td class="col-college">Fresno State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="54">54</td>
+                    <td class="col-name">Thompson, Shaq</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-0</td>
+                    <td class="col-weight">230</td>
+                    <td class="col-bd">22</td>
+                    <td class="col-exp" rel="02">2</td>
+                    <td class="col-college">Washington</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="55">55</td>
+                    <td class="col-name">Mayo, David</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-2</td>
+                    <td class="col-weight">245</td>
+                    <td class="col-bd">23</td>
+                    <td class="col-exp" rel="02">2</td>
+                    <td class="col-college">Texas St.</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="56">56</td>
+                    <td class="col-name">Klein, A.J.</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">240</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="04">4</td>
+                    <td class="col-college">Iowa State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="57">57</td>
+                    <td class="col-name">Cash, Jeremy</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-0</td>
+                    <td class="col-weight">215</td>
+                    <td class="col-bd">24</td>
+                    <td class="col-exp" rel="00">R</td>
+                    <td class="col-college">Duke</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="58">58</td>
+                    <td class="col-name">Davis, Thomas</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">235</td>
+                    <td class="col-bd">33</td>
+                    <td class="col-exp" rel="12">12</td>
+                    <td class="col-college">Georgia</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="59">59</td>
+                    <td class="col-name">Kuechly, Luke</td>
+                    <td class="col-position">LB</td>
+                    <td class="col-height">6-3</td>
+                    <td class="col-weight">238</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="05">5</td>
+                    <td class="col-college">Boston College</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="60">60</td>
+                    <td class="col-name">Williams, Daryl</td>
+                    <td class="col-position">T</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">335</td>
+                    <td class="col-bd">24</td>
+                    <td class="col-exp" rel="02">2</td>
+                    <td class="col-college">Oklahoma</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="61">61</td>
+                    <td class="col-name">Yankey, David</td>
+                    <td class="col-position">G</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">310</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="02">2</td>
+                    <td class="col-college">Stanford</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="62">62</td>
+                    <td class="col-name">Wendell, Ryan</td>
+                    <td class="col-position">C</td>
+                    <td class="col-height">6-2</td>
+                    <td class="col-weight">300</td>
+                    <td class="col-bd">30</td>
+                    <td class="col-exp" rel="07">7</td>
+                    <td class="col-college">Fresno State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="68">68</td>
+                    <td class="col-name">Norwell, Andrew</td>
+                    <td class="col-position">G</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">325</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="03">3</td>
+                    <td class="col-college">Ohio State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="69">69</td>
+                    <td class="col-name">Larsen, Tyler</td>
+                    <td class="col-position">C</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">335</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="01">1</td>
+                    <td class="col-college">Utah State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="70">70</td>
+                    <td class="col-name">Turner, Trai</td>
+                    <td class="col-position">G</td>
+                    <td class="col-height">6-3</td>
+                    <td class="col-weight">310</td>
+                    <td class="col-bd">23</td>
+                    <td class="col-exp" rel="03">3</td>
+                    <td class="col-college">LSU</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="71">71</td>
+                    <td class="col-name">France, Dan</td>
+                    <td class="col-position">T</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">315</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="01">1</td>
+                    <td class="col-college">Michigan State</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="74">74</td>
+                    <td class="col-name">Remmers, Mike</td>
+                    <td class="col-position">T</td>
+                    <td class="col-height">6-5</td>
+                    <td class="col-weight">310</td>
+                    <td class="col-bd">27</td>
+                    <td class="col-exp" rel="04">4</td>
+                    <td class="col-college">Oregon State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="75">75</td>
+                    <td class="col-name">Webster, Larry</td>
+                    <td class="col-position">DE</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">275</td>
+                    <td class="col-bd">26</td>
+                    <td class="col-exp" rel="02">2</td>
+                    <td class="col-college">Bloomsburg</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="77">77</td>
+                    <td class="col-name">Love, Kyle</td>
+                    <td class="col-position">DT</td>
+                    <td class="col-height">6-1</td>
+                    <td class="col-weight">315</td>
+                    <td class="col-bd">30</td>
+                    <td class="col-exp" rel="05">5</td>
+                    <td class="col-college">Mississippi State</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="79">79</td>
+                    <td class="col-name">Scott, Chris</td>
+                    <td class="col-position">G</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">340</td>
+                    <td class="col-bd">29</td>
+                    <td class="col-exp" rel="05">5</td>
+                    <td class="col-college">Tennessee</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="82">82</td>
+                    <td class="col-name">Manhertz, Chris</td>
+                    <td class="col-position">TE</td>
+                    <td class="col-height">6-6</td>
+                    <td class="col-weight">255</td>
+                    <td class="col-bd">24</td>
+                    <td class="col-exp" rel="01">1</td>
+                    <td class="col-college">Canisius</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="84">84</td>
+                    <td class="col-name">Dickson, Ed</td>
+                    <td class="col-position">TE</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">255</td>
+                    <td class="col-bd">29</td>
+                    <td class="col-exp" rel="07">7</td>
+                    <td class="col-college">Oregon</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="88">88</td>
+                    <td class="col-name">Olsen, Greg</td>
+                    <td class="col-position">TE</td>
+                    <td class="col-height">6-5</td>
+                    <td class="col-weight">255</td>
+                    <td class="col-bd">31</td>
+                    <td class="col-exp" rel="10">10</td>
+                    <td class="col-college">Miami (Fla.)</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="90"> 90</td>
+                    <td class="col-name">Soliai, Paul</td>
+                    <td class="col-position">DT</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">345</td>
+                    <td class="col-bd">33</td>
+                    <td class="col-exp" rel="10">10</td>
+                    <td class="col-college">Utah</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="92">92</td>
+                    <td class="col-name">Butler, Vernon</td>
+                    <td class="col-position">DT</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">325</td>
+                    <td class="col-bd">22</td>
+                    <td class="col-exp" rel="00">R</td>
+                    <td class="col-college">Louisiana Tech</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="94">94</td>
+                    <td class="col-name">Ealy, Kony</td>
+                    <td class="col-position">DE</td>
+                    <td class="col-height">6-4</td>
+                    <td class="col-weight">275</td>
+                    <td class="col-bd">25</td>
+                    <td class="col-exp" rel="03">3</td>
+                    <td class="col-college">Missouri</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="95">95</td>
+                    <td class="col-name">Johnson, Charles</td>
+                    <td class="col-position">DE</td>
+                    <td class="col-height">6-2</td>
+                    <td class="col-weight">275</td>
+                    <td class="col-bd">30</td>
+                    <td class="col-exp" rel="10">10</td>
+                    <td class="col-college">Georgia</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="96">96</td>
+                    <td class="col-name">Horton, Wes</td>
+                    <td class="col-position">DE</td>
+                    <td class="col-height">6-5</td>
+                    <td class="col-weight">265</td>
+                    <td class="col-bd">27</td>
+                    <td class="col-exp" rel="04">4</td>
+                    <td class="col-college">Southern California</td>
+                </tr>
+                <tr class="loop-first  loop-odd">
+                    <td class="col-jersey" rel="97">97</td>
+                    <td class="col-name">Addison, Mario</td>
+                    <td class="col-position">DE</td>
+                    <td class="col-height">6-3</td>
+                    <td class="col-weight">260</td>
+                    <td class="col-bd">29</td>
+                    <td class="col-exp" rel="06">6</td>
+                    <td class="col-college">Troy</td>
+                </tr>
+                <tr class="loop-even">
+                    <td class="col-jersey" rel="98">98</td>
+                    <td class="col-name">Lotulelei, Star</td>
+                    <td class="col-position">DT</td>
+                    <td class="col-height">6-2</td>
+                    <td class="col-weight">315</td>
+                    <td class="col-bd">27</td>
+                    <td class="col-exp" rel="04">4</td>
+                    <td class="col-college">Utah</td>
+                </tr>
+                <tr class="loop-odd">
+                    <td class="col-jersey" rel="99">99</td>
+                    <td class="col-name">Short, Kawann</td>
+                    <td class="col-position">DT</td>
+                    <td class="col-height">6-3</td>
+                    <td class="col-weight">315</td>
+                    <td class="col-bd">28</td>
+                    <td class="col-exp" rel="04">4</td>
+                    <td class="col-college">Purdue</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
